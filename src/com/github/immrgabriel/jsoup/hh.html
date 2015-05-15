@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="page">
+    <div class="header">
+        <a href="/" class="header__logo" data-qa="logo-icon"></a>
+
+        <div class="header-title">
+            <div class="header-title__title"></div>
+        </div>
+        <div class="menu">
+            <div class="menu-button">
+                <a href="/account/login?display=mobile&amp;backurl=https%3A%2F%2Fm.hh.ua%2Fvacancies%3Ftext%3Djava%2BKiev%26page%3D0"
+                   class="menu-button__text" data-qa="menu-button"
+                   onclick="HH.trackAnalyticsEvent('mobile', 'exit-to-desktop', 'auth');">Войти</a>
+            </div>
+        </div>
+    </div>
+    <div class="content clearfix">
+        <div class="searchbox searchbox_noborder">
+            <form method="GET" class="searchbox-form">
+                <input type="hidden" name="search_field" value="name">
+                <input type="hidden" name="search_field" value="company_name">
+                <input type="hidden" name="search_field" value="description">
+                <input type="hidden" name="currency_code" value="RUR">
+                <input type="hidden" name="area" value="115">
+                <button class="searchbox-search" data-qa="search-button"><span class="searchbox-search__icon"></span>
+                </button>
+                <div class="searchbox-text-wrapper">
+                    <input name="text" id="search-text" type="search" class="searchbox__input"
+                           x-webkit-speech="x-webkit-speech" placeholder="Должность, зарплата, ключевые слова"
+                           value="java Kiev" data-qa="search-text">
+                </div>
+            </form>
+            <a data-qa="extended-search"
+               href="/search?text=java+Kiev&amp;page=0&amp;search_field=name&amp;search_field=company_name&amp;search_field=description&amp;currency_code=RUR&amp;area=115"
+               class="searchbox__more">Уточнить</a>
+
+            <div class="searchbox__hint" data-qa="search-hint">
+                213 вакансий в Киеве
+            </div>
+        </div>
+        <ul class="vacancy-list" data-qa="search-vacancy-container">
+            <li class="vacancy-list-item vacancy-list-item_premium" id="vacancy_13374418" data-qa="search-vacancy-item">
+                <a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13374418">
+                    <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                        Программист БД Microsoft SQL Server
+                    </div>
+                    <div class="vacancy-list-item__salary" data-qa="vacancy-salary">
+                        от 40000 грн.
+                    </div>
+                    <div class="vacancy-list-item__city">
+                        Киев
+                    </div>
+                    <div class="vacancy-list-item__company">
+                        Аврора&nbsp;
+                        <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                    </div>
+                </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13382915"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13382915">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior Java Developer (Kiev)
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Luxoft&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 30 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard_plus" id="vacancy_13270447"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13270447">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Chief Software Architect - Java
+                </div>
+                <div class="vacancy-list-item__salary" data-qa="vacancy-salary">
+                    8000—8000 USD
+                </div>
+                <div class="vacancy-list-item__city">
+                    Austin, Congress Ave S, 401
+                </div>
+                <div class="vacancy-list-item__company">
+                    Crossover&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 30 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard_plus" id="vacancy_13385630"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13385630">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Инструктор по Java
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    ООО Брейн Академия&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 30 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13383052"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13383052">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior/Lead Java developer
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Luxoft&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 30 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13382575"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13382575">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior Java/Scala Developer
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Luxoft&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 30 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13382779"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13382779">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior/Middle Oracle/Java developer
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Luxoft&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 30 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13382596"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13382596">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Strong Senior Java/GWT Developer
+                </div>
+                <div class="vacancy-list-item__city">
+                    Київ
+                </div>
+                <div class="vacancy-list-item__company">
+                    Luxoft&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 30 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard_plus" id="vacancy_13179514"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13179514">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Software Architect Java
+                </div>
+                <div class="vacancy-list-item__city">
+                    Austin, Congress Ave S, 401
+                </div>
+                <div class="vacancy-list-item__company">
+                    Crossover&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13380991"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13380991">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Java Team Lead
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Luxoft&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                </div>
+            </a></li>
+            <li id="bid630" class="banner-place banner-place_vacancy-list-item banner-place_630"></li>
+            <script src="//hhcdn.ru/pv?token=1430568902.583914614517132&amp;site=147&amp;domainAreaId=5&amp;regions=5&amp;type=unknown&amp;place=630&amp;callback=HH.banners.put&amp;format=json"></script>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13381012"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13381012">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Java Architect / Team Lead
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Luxoft&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13379982"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13379982">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior Java developer
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Smart Solutions&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13371241"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13371241">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Java-разработчик
+                </div>
+                <div class="vacancy-list-item__salary" data-qa="vacancy-salary">
+                    2200—2500 USD
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Nitka Technologies&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 28 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13373831"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13373831">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Java-разработчик (middle)
+                </div>
+                <div class="vacancy-list-item__salary" data-qa="vacancy-salary">
+                    16000—20000 грн.
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Credit Collection Group&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13040203"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13040203">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior Java developer, Frankfurt
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Smart Solutions&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13289538"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13289538">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Java Team Lead
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    Smart Solutions&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 29 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_12683705"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/12683705">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior JAVA Developer
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    УкрСиббанк&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 28 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_13349140"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/13349140">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Java Developer
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    NATEK&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 24 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_12952739"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/12952739">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Senior Java Developer - Kiev
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    SAP CIS&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 8 апр </span>
+                </div>
+            </a></li>
+            <li class="vacancy-list-item vacancy-list-item_standard" id="vacancy_12952834"
+                data-qa="search-vacancy-item"><a class="vacancy-list-item-link" href="https://m.hh.ua/vacancy/12952834">
+                <div class="vacancy-list-item__name" data-qa="vacancy-name">
+                    Java Developer - Kiev
+                </div>
+                <div class="vacancy-list-item__city">
+                    Киев
+                </div>
+                <div class="vacancy-list-item__company">
+                    SAP CIS&nbsp;
+                    <span class="vacancy-list-item__pubdate" data-qa="vacancy-pubdate"> 8 апр </span>
+                </div>
+            </a></li>
+        </ul>
+        <div id="bid154" class="banner-place banner-place_separated banner-place_full-width banner-place_154"></div>
+        <script src="//hhcdn.ru/pv?token=1430568902.583914614517132&amp;site=147&amp;domainAreaId=5&amp;regions=5&amp;type=unknown&amp;place=154&amp;callback=HH.banners.put&amp;format=json"></script>
+        <div class="paging" data-qa="paging-container">
+            <span class="paging-item paging-item_active" data-qa="paging-page">1</span>
+            <a class="paging-item" href="?text=java+Kiev&amp;page=1&amp;currency_code=RUR&amp;area=115">2</a>
+            <a class="paging-item" href="?text=java+Kiev&amp;page=2&amp;currency_code=RUR&amp;area=115">3</a>
+            <a class="paging-item" href="?text=java+Kiev&amp;page=3&amp;currency_code=RUR&amp;area=115">4</a>
+            <a class="paging-item" href="?text=java+Kiev&amp;page=4&amp;currency_code=RUR&amp;area=115">5</a>
+            <a class="paging-item paging-item_next" href="?text=java+Kiev&amp;page=1&amp;currency_code=RUR&amp;area=115"
+               data-qa="paging-next">&nbsp;</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__copyright" data-qa="copyright">
+            © Группа компаний HeadHunter, 2000 — 2015
+        </div>
+        <ul class="footer-links">
+            <li class="footer-item"><a class="footer-item__link" href="/catalog" data-qa="profareas">Каталог
+                отраслей</a></li>
+            <li class="footer-item"><a class="footer-item__link hh-nomobile-link"
+                                       href="https://m.hh.ua/vacancies?text=java+Kiev&amp;nomobile=&amp;page=0"
+                                       onclick="HH.trackAnalyticsEvent('mobile', 'exit-to-desktop',
+                                       '');" data-qa="footer-full-version">Полная версия</a></li>
+        </ul>
+    </div>
+</div>
+<script src="//i-m.hh.ru//js/fastclick.min.js"></script>
+<script>
+    window.addEventListener('load', function () {
+        FastClick.attach(document.body);
+    }, false);
+</script>
+<!--gemius counter-->
+<script type="text/javascript">
+    <!--//-->
+    <![CDATA[//><!--
+    var pp_gemius_identifier = '1_zgu6McG8ICpxSoega4.rQG78ZyFNuiRJ.nZT60LIb.o7';
+    // lines below shouldn't be edited
+    function gemius_pending(i) {
+        window[i] = window[i] || function () {
+                    var x = window[i + '_pdata'] = window[i + '_pdata'] || [];
+                    x[x.length] = arguments;
+                };
+    }
+    ;
+    gemius_pending('gemius_hit');
+    gemius_pending('gemius_event');
+    gemius_pending('pp_gemius_hit');
+    gemius_pending('pp_gemius_event');
+    (function (d, t) {
+        try {
+            var gt = d.createElement(t), s = d.getElementsByTagName(t)[0], l = 'http' + ((location.protocol == 'https:') ? 's' : '');
+            gt.setAttribute('async', 'async');
+            gt.setAttribute('defer', 'defer');
+            gt.src = l + '://gaua.hit.gemius.pl/xgemius.js';
+            s.parentNode.insertBefore(gt, s);
+        } catch (e) {
+        }
+    })(document, 'script');
+    //--><!
+    ]]>
+</script>
+<!--/gemius counter-->
+<!--google counter-->
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['main._require', 'inpage_linkid', '//www.google-analytics.com/plugins/ga/inpage_linkid.js']),
+
+
+            _gaq.push(['main._setAccount', 'UA-2554084-1']);
+    _gaq.push(['main._setDomainName', 'none']);
+    _gaq.push(['main._setSessionCookieTimeout', 3600000]);
+    _gaq.push(['main._addOrganic', 'rambler.ru', 'words'],
+            ['main._addOrganic', 'nova.rambler.ru', 'query'],
+            ['main._addOrganic', 'mail.ru', 'q'],
+            ['main._addOrganic', 'nigma.ru', 's'],
+            ['main._addOrganic', 'search.livetool.ru', 'text', true],
+            ['main._addOrganic', 'search.qip.ru', 'query']);
+    _gaq.push(['main._trackPageview']);
+
+    _gaq.push(['mobile._setAccount', 'UA-2554084-12']);
+    _gaq.push(['mobile._setDomainName', 'none']);
+    _gaq.push(['mobile._setSessionCookieTimeout', 3600000]);
+    _gaq.push(['mobile._addOrganic', 'rambler.ru', 'words'],
+            ['mobile._addOrganic', 'nova.rambler.ru', 'query'],
+            ['mobile._addOrganic', 'mail.ru', 'q'],
+            ['mobile._addOrganic', 'nigma.ru', 's'],
+            ['mobile._addOrganic', 'search.livetool.ru', 'text', true],
+            ['mobile._addOrganic', 'search.qip.ru', 'query']);
+    _gaq.push(['mobile._trackPageview']);
+
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<!--/google counter-->
+<!--bigmir counter-->
+<script type="text/javascript">
+    <!--
+    bmN = navigator, bmD = document, bmD.cookie = 'b=b', i = 0, bs = [], bm = {
+        o: 1,
+        v: 94760,
+        s: 94760,
+        t: 6,
+        c: bmD.cookie ? 1 : 0,
+        n: Math.round((Math.random() * 1000000)),
+        w: 0
+    };
+    for (var f = self; f != f.parent; f = f.parent)bm.w++;
+    try {
+        if (bmN.plugins && bmN.mimeTypes.length && (x = bmN.plugins['Shockwave Flash']))bm.m = parseInt(x.description.replace(/([a-zA-Z]|\s)+/, ''));
+        else for (var f = 3; f < 20; f++)if (eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.' + f + '")'))bm.m = f
+    } catch (e) {
+        ;
+    }
+    try {
+        bm.y = bmN.javaEnabled() ? 1 : 0
+    } catch (e) {
+        ;
+    }
+    try {
+        bmS = screen;
+        bm.v ^= bm.d = bmS.colorDepth || bmS.pixelDepth;
+        bm.v ^= bm.r = bmS.width
+    } catch (e) {
+        ;
+    }
+    r = bmD.referrer.replace(/^w+:\/\//, '');
+    if (r && r.split('/')[0] != window.location.host) {
+        bm.f = escape(r).slice(0, 400).slice(0, 400);
+        bm.v ^= r.length
+    }
+    bm.v ^= window.location.href.length;
+    for (var x in bm) if (/^[ovstcnwmydrf]$/.test(x)) bs[i++] = x + bm[x];
+    bmD.write('<sc' + 'ript type="text/javascript" language="javascript" src="' + (bmD.location.protocol == 'https:' ? 'https:' : 'http:') + '//c.bigmir.net/?' + bs.join('&') + '"></sc' + 'ript>');
+    //-->
+</script>
+<noscript>
+    <img src="//c.bigmir.net/?v94760&amp;s94760&amp;t6" width="0" height="0" alt="" title="" border="0">
+</noscript>
+<!--/bigmir counter-->
+<script>
+    var _gaq = _gaq || [];
+    var HH = HH || {};
+    HH.trackPageview = function (name) {
+        _gaq.push(['main._trackPageview', name]);
+        _gaq.push(['mobile._trackPageview', name]);
+    };
+    HH.trackAnalyticsEvent = function (cat, event, label) {
+        label = label || '';
+        _gaq.push(['main._trackEvent', cat, event, label]);
+        _gaq.push(['mobile._trackEvent', cat, event, label]);
+    };
+</script>
+</body>
+
+</html>

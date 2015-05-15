@@ -1,0 +1,12 @@
+terminal_1
+sysinfo
+startNetworkServer
+
+
+terminal_2
+ij
+connect 'jdbc:derby:Lesson22;create=true';
+CREATE TABLE Employee ( EMPNO int NOT NULL, ENAME varchar (50)NOT NULL, JOB_TITLE varchar (150) NOT NULL );
+INSERT INTO Employee values (7369,'John Smith', 'Clerk'),(7499,'Joe Allen','Salesman'), (7521,'Mary Lou','Director');
+Select * from Employee;
+close ij
